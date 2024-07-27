@@ -1,0 +1,37 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Aarish Alam
+theme: ["PaperMod"]
+mainsections: ["posts", "papermod"]
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 5
+        - name: Experience
+          url: experience
+          weight: 10
+params:
+  # defaultTheme: light
+  # defaultTheme: dark
+  defaultTheme: auto # to switch between dark or light according to browser theme
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: Welcome to my website!
+
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/rheagalfire"
+    - name: "Twitter"
+      url: "https://x.com/home/aarish_alam"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/aarish-alam/"
+
